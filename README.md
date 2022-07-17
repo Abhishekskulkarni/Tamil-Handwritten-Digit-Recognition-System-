@@ -1,6 +1,6 @@
 # Tamil-Handwritten-Digit-Recognition-System
 
-Problem Statement :
+//Problem Statement :
                     The ability of computers to detect human handwritten digits is known as
                     handwritten digit recognition. Because handwritten digits are not flawless and may
                     be generated with a variety of tastes, it is a difficult assignment for the machine.
@@ -12,7 +12,7 @@ Problem Statement :
                     digit recognition system, for example, can be utilized in postal mail sorting, bank
                     check processing, form data entry, teaching field and other applications.
  
-Solution Approach
+//Solution Approach:
                     The aim of the project is to predict the handwritten digit which is
                     provided as an input in image format.Thus the dataset consists of images which are
                     raw data collected in various formats.
@@ -22,3 +22,10 @@ Solution Approach
                     extracted features are used in the model training process. Once the model is built
                     we check its accuracy and test the model. We also checked the performance of the
                     model on unseen data i.e the data which was not the part of the collected dataset.
+//Algorithms Used
+                    After performing EDA and preprocessing, we came to the part where we have to
+                    choose the best algorithm for model building. So, these algorithms we used to
+                    build the model from which we chose the one which gave the best result.
+                    ● SVM (Support vector Machine)
+                    ● KNN (K-Nearest Neighbours)
+                    ● Random Forest
